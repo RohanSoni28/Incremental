@@ -24,6 +24,7 @@ public class ClinicServiceImplJpa implements ClinicService {
         return clinicRepository.findAll();
 
     }
+    
 
     @Override
     public Clinic getClinicById(int clinicId) throws SQLException {
